@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #001d3d;
+}
+
+#counter-container {
+    background-color: #003560;
+    width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#number-container {
+    padding: 40px;
+    color: #FFC300;
+    background-color: #000814;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+button {
+    background-color: #FFD60A;
+    color: #000814;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 6px 20px;
+}
+
